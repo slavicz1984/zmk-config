@@ -55,20 +55,20 @@
         Gaming {
             display-name = "Game";
             bindings = <
-              &kp TAB         &kp PLUS  &kp N2  &kp N3        &kp N4       &trans  &trans  &trans  &trans  &trans
-              &kp LEFT_SHIFT  &kp Q     &kp W   &kp E         &kp R        &trans  &trans  &trans  &trans  &trans
-&lt 1 ESCAPE  &kp LCTRL       &kp A     &kp S   &kp D         &kp F        &trans  &trans  &trans  &trans  &trans  &trans
-                                        &kp X   &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
+              &kp TAB         &kp PLUS  &kp N2  &kp N3        &mt LS(N5) N4    &trans  &trans  &trans  &trans  &trans
+              &kp LEFT_SHIFT  &kp Q     &kp W   &kp E         &kp R            &trans  &trans  &trans  &trans  &trans
+&lt 1 ESCAPE  &kp LCTRL       &kp A     &kp S   &kp D         &kp F            &trans  &trans  &trans  &trans  &trans  &trans
+                                        &kp X   &kp LEFT_ALT  &kp SPACE        &trans  &trans  &trans
             >;
         };
 
         Gaming+ {
             display-name = "Game+";
             bindings = <
-              &kp F10  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp T        &kp RA(RC(Y))  &kp RA(RC(U))  &trans  &trans  &kp LC(RA(DEL))
-              &kp L    &kp O         &kp Y         &kp K         &kp G        &kp F5         &kp F7         &trans  &trans  &kp F12
-&lt 0 ESCAPE  &to 0    &trans        &trans        &trans        &trans       &trans         &trans         &trans  &trans  &kp F22          &kp LA(F4)
-                                     &kp X         &kp LEFT_ALT  &kp SPACE    &trans         &trans         &trans
+            &kp F10    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp T             &kp RA(RC(Y))  &kp RA(RC(U))  &trans  &trans  &kp LC(RA(DEL))
+            &kp L      &kp O         &kp Y         &kp K         &kp G             &kp F5         &kp F7         &trans  &trans  &kp F12
+&kp ESCAPE  &kp LCTRL  &trans        &trans        &lt 0 X       &studio_unlock    &trans         &trans         &trans  &trans  &kp F22          &kp LA(F4)
+                                     &kp X         &kp LEFT_ALT  &kp SPACE         &trans         &trans         &trans
             >;
         };
     };
